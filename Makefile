@@ -81,7 +81,7 @@ $(PACKAGE): build
 # XXX put coffee and node from mindbender on PATH
 .PHONY: release-%
 release-%: PATH := $(realpath $(STAGE_DIR)/mindbender/node_modules/.bin):$(realpath $(STAGE_DIR)/mindbender/depends/bundled/.all/bin):$(PATH)
-release-%: GITHUB_REPO = HazyResearch/deepdive
+release-%: GITHUB_REPO = onthway/deepdive
 release-%: RELEASE_VERSION = $*
 release-%: RELEASE_PACKAGE = deepdive-$(RELEASE_VERSION)-$(shell uname).tar.gz
 release-%:
