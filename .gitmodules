@@ -1,6 +1,6 @@
 [submodule "util/mindbender"]
 	path = util/mindbender
-	url = https://github.com/netj/mindbender.git
+	url = https://github.com/onthway/mindbender.git
 [submodule "test/bats"]
 	path = test/bats
 	url = https://github.com/sstephenson/bats.git
